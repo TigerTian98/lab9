@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.clickableDiv {
+  cursor: pointer;
+  font-size: 25vh;
+  height: 50vh;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  width: 100vw;
+}
+
+.clickableDiv:hover {
+  opacity: 0.6;
+}
+
+#minus {
+  top: 50vh;
+}
+
+#plus {
+  top: 0;
+}
+
+#result {
+  font-size: 50vh;
+  font-weight: bold;
+  height: 100vh;
+  line-height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
